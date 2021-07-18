@@ -2,7 +2,7 @@
 
 [![Arduino Library](https://www.ardu-badge.com/badge/mDNSResolver.svg?style=plastic)](https://www.ardu-badge.com/mDNSResolver)
 [![GitHub Release](https://img.shields.io/github/v/release/lbussy/mDNSResolver.svg?style=plastic)](https://github.com/lbussy/mDNSResolver/releases)
-[![MIT License](https://img.shields.io/github/license/lbussy/mDNSResolver?style=plastic)](https://github.com/lbussy/mDNSResolver/blob/master/LICENSE)
+[![MIT License](https://img.shields.io/github/license/lbussy/mDNSResolver?style=plastic)](https://github.com/lbussy/mDNSResolver/blob/master/LICENSE.txt)
 [![GitHub Issues](https://img.shields.io/github/issues/lbussy/mDNSResolver?style=plastic)](http://github.com/lbussy/mDNSResolver/issues)
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lbussy/mDNSResolver?style=plastic)](http://github.com/lbussy/mDNSResolver/pulls)
 [![Contributors Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=plastic)](#Contributing)
