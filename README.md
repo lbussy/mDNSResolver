@@ -18,7 +18,7 @@ A simple library that resolves mDNS (Bonjour) names for the ESP8266.
 
 Often, IOT devices need to connect to other IOT devices.  This can be made simple using mDNS but the folks at Espressif decided to remove or break simple name resolution for mDNS in a recent change.  I needed this for one of my other libraries which leverages mDNS lookup functionality.
 
-This library originated from madpilot's [mDNSResolver](https://github.com/madpilot/mDNSResolver/).  That project did not seem to be active (albeit it was complete) so I forked it and updated for current core lib functionality.
+This library originated from madpilot's [mDNSResolver](https://github.com/madpilot/mDNSResolver/).  That project did not seem to be active (albeit it was complete) so I forked it and updated for current core lib functionality.  All of the credit for the initial successful implementation is due to madpilot, I simply cleaned it up, removed a bunch of (probably new) compiler issues, and packaged it nicely for PlatformIO and Arduino libraries.
 
 # Installation
 
@@ -92,7 +92,7 @@ Feature branches with lots of small commits (especially titled "oops", "fix typo
 
 # License
 
-See [LICENSE.txt](https://github.com/madpilot/mDNSResolver/tree/master/LICENSE.txt)
+See [LICENSE.txt](https://github.com/lbussy/mDNSResolver/tree/master/LICENSE.txt)
 
 # Credits
 

@@ -27,8 +27,8 @@ SOFTWARE. */
 // Auto-generated during developer testing
 #define PIO_SRC_NAM "mDNSResolver"
 #define PIO_SRC_TAG "0.0.0"
-#define PIO_SRC_BRH "master"
-#define PIO_SRC_REV "3fbc89d"
+#define PIO_SRC_BRH "main"
+#define PIO_SRC_REV "80997a4"
 
 #include <IPAddress.h>
 #include <WiFiUdp.h>

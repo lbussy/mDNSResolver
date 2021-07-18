@@ -26,6 +26,7 @@ import subprocess
 import os
 import sys
 import fileinput
+import json
 Import("env")
 
 # Get Git project name
@@ -81,4 +82,18 @@ for line in fileinput.input(str(env["PROJECT_SRC_DIR"]) + '/mDNSResolver.h', inp
         line = '#define PIO_SRC_BRH "{}"\n'.format(branch)
     if line.strip().startswith('#define PIO_SRC_REV'):
         line = '#define PIO_SRC_REV "{}"\n'.format(commit)
+    sys.stdout.write(line)
+
+# Read in: 'library.json'
+# Replace: "version": "0.0.1"
+library_json = 'library.json'
+with open(library_json) as json_file:
+    data = json.load(json_file)
+    data['version'] = version
+    with open(library_json, 'w') as outfile:
+        json.dump(data, outfile, ensure_ascii=False, indent=4)  
+
+for line in fileinput.input('library.properties', inplace=True):
+    if line.strip().startswith('version='):
+        line = 'version={}\n'.format(version)
     sys.stdout.write(line)
