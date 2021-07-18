@@ -194,6 +194,13 @@ void setup()
     setSerial();
     setWiFi();
 
+    Log.notice(F("Test script for %s, %s branch, version %s [%s]." CR),
+        resolver.project(),
+        resolver.branch(),
+        resolver.version(),
+        resolver.build()
+    );
+
     Log.notice(F("Resolving %s." CR), resolveName);
     resolver.setLocalIP(WiFi.localIP());
 
