@@ -7,7 +7,7 @@
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lbussy/mDNSResolver?style=plastic)](http://github.com/lbussy/mDNSResolver/pulls)
 [![Contributors Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=plastic)](#Contributing)
 
-A simple library that resolves mDNS (Bonjour) names for the ESP9266.
+A simple library that resolves mDNS (Bonjour) names for the ESP8266.
 
 ## Compatibility
 
