@@ -9,14 +9,16 @@
 
 A simple library that resolves mDNS (Bonjour) names for the ESP8266.
 
-## Compatibility
+# Compatibility
 
 * Hardware: ESP8266.  The ESP32 libraries have mDNS support.
 * Software: Tested against avahi and avahi-alias which adds CNAMEs. Post a bug report if it doesn't work with a server that you are using.
 
-## Why?
+# Why?
 
 Often, IOT devices need to connect to other IOT devices.  This can be made simple using mDNS but the folks at Espressif decided to remove or break simple name resolution for mDNS in a recent change.  I needed this for one of my other libraries which leverages mDNS lookup functionality.
+
+This library originated from madpilot's [mDNSResolver](https://github.com/madpilot/mDNSResolver/).  That project did not seem to be active (albeit it was complete) so I forked it and updated for current core lib functionality.
 
 # Installation
 
