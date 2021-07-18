@@ -1,4 +1,11 @@
-# mDNS Resolver [![Build Status](https://travis-ci.org/lbussy/mDNSResolver.svg?branch=master)](https://travis-ci.org/lbussy/mDNSResolver)
+# mDNS Resolver
+
+[![Arduino Library](https://www.ardu-badge.com/badge/LCBUrl.svg?style=plastic)](https://www.ardu-badge.com/LCBUrl)
+[![GitHub Release](https://img.shields.io/github/v/release/lbussy/LCBUrl.svg?style=plastic)](https://github.com/lbussy/LCBUrl/releases)
+[![MIT License](https://img.shields.io/github/license/lbussy/LCBUrl?style=plastic)](https://github.com/lbussy/LCBUrl/blob/master/LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/lbussy/LCBUrl?style=plastic)](http://github.com/lbussy/LCBUrl/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lbussy/LCBUrl?style=plastic)](http://github.com/lbussy/LCBUrl/pulls)
+[![Contributors Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=plastic)](#Contributing)
 
 A simple library that resolves mDNS (Bonjour) names for the ESP9266
 
