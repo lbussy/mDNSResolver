@@ -57,11 +57,11 @@ IPAddress ip = resolver.search("test.local");
 
 Returns INADDR_NONE (255.255.255.255) if the name can't be found.
 
-See the [examples folder](https://github.com/lbussy/mDNSResolver/tree/master/examples) for the full setup details
+See the [examples folder](https://github.com/lbussy/mDNSResolver/tree/master/examples) for the full setup details.
 
 # Advanced Customization
 
-You can change a few settings by defining some constants before including the mDNSResolver header file, but only if you really know what you are doing
+You can change a few settings by defining some constants before including the mDNSResolver header file, but please only do so only if you know what you are doing.
 
 ``` cpp
 #define MDNS_RETRY    1000      # Number of milliseconds between rebroadcasting a name query
@@ -96,5 +96,6 @@ See [LICENSE.txt](https://github.com/lbussy/mDNSResolver/tree/master/LICENSE.txt
 
 # Credits
 
-This library originated from madpilot's [mDNSResolver](https://github.com/madpilot/mDNSResolver/).  
+This library originated from madpilot's [mDNSResolver](https://github.com/madpilot/mDNSResolver/).
+
 Madpilot in turn shared that much of his inspiration, and some parts of the code have been taken (or modified from) https://github.com/mrdunk/esp8266_mdns.
